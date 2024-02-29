@@ -57,3 +57,4 @@ bin/rubocop -a
 
 ## Additional Installed Gems:
 * [Annotate, Add a comment summarizing the current schema](https://github.com/ctran/annotate_models)
+* [Strong Migrations, Catch unsafe migrations in development](https://github.com/ankane/strong_migrations)
