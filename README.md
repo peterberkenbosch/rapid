@@ -2,6 +2,27 @@
 
 Minimal Rails edge setup, using esbuild, tailwindcss and postgresql.
 
+You need the following installed:
+* Ruby >= 3.2.0 (`asdf install`)
+* Bundler (`gem install bundler`)
+* Node 20 (`asdf install`)
+* Yarn (`npm install yarn --global`)
+* Postgresql 14 (`brew install postgresql@16` start with: `brew services start postgresql@16`)
+* Redis (`brew install redis` start with: `brew services start redis`)
+
+Optional:
+* Overmind (`brew install tmux overmind`)
+
+If you are using [asdf](https://asdf-vm.com/) (I recommend that you do :) ) you can install the required Ruby and NodeJS versions with `asdf install`
+
+The Homebrew dependencies can be installed with running:
+
+```bash
+brew bundle install --no-upgrade
+```
+
+Additional Homebrew dependencies can be added to the `Brewfile`
+
 ## Getting started
 
 ### Initial application setup
