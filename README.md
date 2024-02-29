@@ -54,3 +54,6 @@ to automatically format Ruby with Rubocop you can run:
 ```sh
 bin/rubocop -a
 ```
+
+## Additional Installed Gems:
+* [Annotate, Add a comment summarizing the current schema](https://github.com/ctran/annotate_models)
