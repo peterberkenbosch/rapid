@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: f7353283fd771e99b9675bcb9394e398964195f8
+  revision: 1b226d574387a44318bc6bebae7670ebd05ea57e
   branch: main
   specs:
     actioncable (7.2.0.alpha)
@@ -104,7 +104,7 @@ GEM
       rake (>= 10.4, < 14.0)
     ast (2.4.2)
     base64 (0.2.0)
-    bigdecimal (3.1.6)
+    bigdecimal (3.1.7)
     bindex (0.8.1)
     bootsnap (1.18.3)
       msgpack (~> 1.2)
@@ -133,11 +133,10 @@ GEM
     erubi (1.12.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    i18n (1.14.3)
+    i18n (1.14.4)
       concurrent-ruby (~> 1.0)
-      racc (~> 1.7)
     io-console (0.7.2)
-    irb (1.11.2)
+    irb (1.12.0)
       rdoc
       reline (>= 0.4.2)
     jbuilder (2.11.5)
